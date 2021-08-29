@@ -1,0 +1,8 @@
+{
+  "name": "Mixed Language Text",
+  "id": "1012962159348529943",
+  "editorType": ["figma"],
+  "api": "1.0.0",
+  "main": "dist/main.js",
+  "ui": "dist/index.html"
+}

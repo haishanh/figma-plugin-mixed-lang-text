@@ -1,0 +1,22 @@
+<script lang="ts">
+  export let label = "label";
+</script>
+
+<div class="label">{label}</div>
+
+<style lang="scss">
+  .label {
+    font-size: var(--font-size-xsmall);
+    font-weight: var(--font-weight-normal);
+    letter-spacing: var(--font-letter-spacing-pos-xsmall);
+    line-height: var(--line-height);
+    color: var(--black3);
+    height: var(--size-medium);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: default;
+    user-select: none;
+    padding: 0 var(--size-xxxsmall) 0 var(--size-xxsmall);
+  }
+</style>
